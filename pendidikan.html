@@ -13,10 +13,62 @@
       crossorigin="anonymous"
     />
 
-    <title>Hello, world!</title>
+    <title>Kegiatan Desa Jati Indah</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm" style="background-color: rgb(40, 122, 47)">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html#beranda">Desa Jati Indah</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="index.html#beranda">Beranda</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil Desa </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="index.html#projects">Visi Misi Desa</a></li>
+                <li><a class="dropdown-item" href="perangkatdesa.html">Perangkat Desa</a></li>
+                <li><a class="dropdown-item" href="petadesa.html">Peta Desa</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Serba-Serbi </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="index.html#serbaserbi">Serba-Serbi</a></li>
+                <li><a class="dropdown-item" href="pendidikan.html">Pendidikan</a></li>
+                <li><a class="dropdown-item" href="wisata.html">Wisata</a></li>
+                <li><a class="dropdown-item" href="kegiatan.html">Kegiatan</a></li>
+              </ul>
+            </li>
+            <a class="nav-link" href="hubungikami.html">Hubungi Kami</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar-->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Copyright 2021 | built by. Julio Adi Putra</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -31,5 +83,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css" />
   </body>
 </html>
